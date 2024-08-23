@@ -34,6 +34,8 @@ android {
 }
 
 dependencies {
+    // lifecycle
+    implementation(libs.bundles.androidx.lifecycle)
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
