@@ -34,6 +34,8 @@ android {
 }
 
 dependencies {
+    // navigation
+    implementation(libs.bundles.androidx.navigation)
     // lifecycle
     implementation(libs.bundles.androidx.lifecycle)
 
