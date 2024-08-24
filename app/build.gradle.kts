@@ -56,7 +56,8 @@ dependencies {
     // timber
     implementation(libs.timber)
     // hilt
-    implementation(libs.bundles.hilt.android)
+    implementation(libs.hilt.android)
+    ksp(libs.hilt.android.compiler)
     // room
     implementation(libs.bundles.androidx.room)
     ksp(libs.androidx.room.compiler)

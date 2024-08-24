@@ -91,7 +91,6 @@ retrofit-converter-kotlinxSerialization = { group = "com.squareup.retrofit2", na
 androidx-lifecycle = ["androidx-lifecycle-viewmodel-ktx", "androidx-lifecycle-service", "androidx-lifecycle-process"]
 androidx-navigation = ["androidx-navigation-fragment", "androidx-navigation-ui"]
 androidx-room = ["androidx-room-ktx", "androidx-room-paging"]
-hilt-android = ["hilt-android", "hilt-android-compiler"]
 coil = ["coil", "coil-gif", "coil-svg"]
 okhttp = ["okhttp", "okhttp-logging-interceptor"]
 retrofit = ["retrofit", "retrofit-converter-kotlinxSerialization"]
