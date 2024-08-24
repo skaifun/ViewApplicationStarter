@@ -57,6 +57,9 @@ dependencies {
     implementation(libs.timber)
     // hilt
     implementation(libs.bundles.hilt.android)
+    // room
+    implementation(libs.bundles.androidx.room)
+    ksp(libs.androidx.room.compiler)
     // navigation
     implementation(libs.bundles.androidx.navigation)
     // lifecycle
