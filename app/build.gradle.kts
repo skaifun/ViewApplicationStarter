@@ -60,6 +60,8 @@ dependencies {
     // room
     implementation(libs.bundles.androidx.room)
     ksp(libs.androidx.room.compiler)
+    // paging
+    implementation(libs.androidx.paging)
     // navigation
     implementation(libs.bundles.androidx.navigation)
     // lifecycle
