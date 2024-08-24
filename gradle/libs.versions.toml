@@ -16,6 +16,7 @@ navigation = "2.7.7"
 hilt = "2.50"
 timber = "5.0.1"
 corelibdesugaring = "2.0.4"
+recyclerviewselection = "1.1.0"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -47,6 +48,9 @@ timber = { group = "com.jakewharton.timber", name = "timber", version.ref = "tim
 
 # core library desugaring
 corelibdesugaring = { group = "com.android.tools", name = "desugar_jdk_libs", version.ref = "corelibdesugaring" }
+
+# RecycleView Selection
+androidx-recyclerview-selection = { group = "androidx.recyclerview", name = "recyclerview-selection", version.ref = "recyclerviewselection" }
 
 [bundles]
 androidx-lifecycle = ["androidx-lifecycle-viewmodel-ktx", "androidx-lifecycle-service", "androidx-lifecycle-process"]

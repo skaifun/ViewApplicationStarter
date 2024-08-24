@@ -52,6 +52,8 @@ dependencies {
     implementation(libs.bundles.androidx.navigation)
     // lifecycle
     implementation(libs.bundles.androidx.lifecycle)
+    // recyclerview selection
+    implementation(libs.androidx.recyclerview.selection)
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
