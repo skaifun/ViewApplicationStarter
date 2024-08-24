@@ -45,6 +45,8 @@ android {
 dependencies {
     // core library desugaring
     coreLibraryDesugaring(libs.corelibdesugaring)
+    // retrofit
+    implementation(libs.bundles.retrofit)
     // kotlin serialization
     implementation(libs.kotlinx.serialization.json)
     // okhttp
