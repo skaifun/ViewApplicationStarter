@@ -3,6 +3,7 @@ plugins {
     alias(libs.plugins.jetbrains.kotlin.android)
     alias(libs.plugins.ksp)
     alias(libs.plugins.hilt)
+    alias(libs.plugins.kotlinx.serialization)
 }
 
 android {
@@ -44,6 +45,8 @@ android {
 dependencies {
     // core library desugaring
     coreLibraryDesugaring(libs.corelibdesugaring)
+    // kotlin serialization
+    implementation(libs.kotlinx.serialization.json)
     // okhttp
     implementation(libs.bundles.okhttp)
     // coil
