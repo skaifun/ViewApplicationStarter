@@ -2,6 +2,7 @@ plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.jetbrains.kotlin.android)
     alias(libs.plugins.ksp)
+    alias(libs.plugins.hilt)
 }
 
 android {
@@ -34,6 +35,8 @@ android {
 }
 
 dependencies {
+    // hilt
+    implementation(libs.bundles.hilt.android)
     // navigation
     implementation(libs.bundles.androidx.navigation)
     // lifecycle
