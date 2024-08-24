@@ -18,6 +18,7 @@ timber = "5.0.1"
 corelibdesugaring = "2.0.4"
 recyclerviewselection = "1.1.0"
 coil = "2.7.0"
+okhttp = "4.12.0"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -58,11 +59,16 @@ coil = { group = "io.coil-kt", name = "coil", version.ref = "coil" }
 coil-gif = { group = "io.coil-kt", name = "coil-gif", version.ref = "coil" }
 coil-svg = { group = "io.coil-kt", name = "coil-svg", version.ref = "coil" }
 
+# okhttp
+okhttp = { group = "com.squareup.okhttp3", name = "okhttp", version.ref = "okhttp" }
+okhttp-logging-interceptor = { group = "com.squareup.okhttp3", name = "logging-interceptor", version.ref = "okhttp" }
+
 [bundles]
 androidx-lifecycle = ["androidx-lifecycle-viewmodel-ktx", "androidx-lifecycle-service", "androidx-lifecycle-process"]
 androidx-navigation = ["androidx-navigation-fragment", "androidx-navigation-ui"]
 hilt-android = ["hilt-android", "hilt-android-compiler"]
 coil = ["coil", "coil-gif", "coil-svg"]
+okhttp = ["okhttp", "okhttp-logging-interceptor"]
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }

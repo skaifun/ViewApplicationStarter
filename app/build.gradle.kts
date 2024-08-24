@@ -44,6 +44,8 @@ android {
 dependencies {
     // core library desugaring
     coreLibraryDesugaring(libs.corelibdesugaring)
+    // okhttp
+    implementation(libs.bundles.okhttp)
     // coil
     implementation(libs.bundles.coil)
     // timber
