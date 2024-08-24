@@ -30,6 +30,9 @@ android {
         }
     }
     compileOptions {
+        // enable core library desugaring
+        isCoreLibraryDesugaringEnabled = true
+
         sourceCompatibility = JavaVersion.VERSION_1_8
         targetCompatibility = JavaVersion.VERSION_1_8
     }
@@ -39,6 +42,8 @@ android {
 }
 
 dependencies {
+    // core library desugaring
+    coreLibraryDesugaring(libs.corelibdesugaring)
     // timber
     implementation(libs.timber)
     // hilt
