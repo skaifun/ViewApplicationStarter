@@ -18,6 +18,10 @@ android {
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
+    buildFeatures {
+        viewBinding = true
+        buildConfig = true
+    }
 
     buildTypes {
         release {
@@ -35,6 +39,8 @@ android {
 }
 
 dependencies {
+    // timber
+    implementation(libs.timber)
     // hilt
     implementation(libs.bundles.hilt.android)
     // navigation
