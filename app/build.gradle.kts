@@ -44,6 +44,8 @@ android {
 dependencies {
     // core library desugaring
     coreLibraryDesugaring(libs.corelibdesugaring)
+    // coil
+    implementation(libs.bundles.coil)
     // timber
     implementation(libs.timber)
     // hilt
