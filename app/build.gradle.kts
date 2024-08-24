@@ -60,6 +60,8 @@ dependencies {
     // room
     implementation(libs.bundles.androidx.room)
     ksp(libs.androidx.room.compiler)
+    // viewpager2
+    implementation(libs.androidx.viewpager2)
     // paging
     implementation(libs.androidx.paging)
     // navigation
