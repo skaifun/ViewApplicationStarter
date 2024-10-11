@@ -45,6 +45,8 @@ android {
 dependencies {
     // core library desugaring
     coreLibraryDesugaring(libs.corelibdesugaring)
+    // leakcanary
+    debugImplementation(libs.leakcanary)
     // retrofit
     implementation(libs.bundles.retrofit)
     // kotlin serialization
