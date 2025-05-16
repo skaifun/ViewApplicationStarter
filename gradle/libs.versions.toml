@@ -24,7 +24,7 @@ coil = "2.7.0"
 okhttp = "4.12.0"
 kotlinxSerialization = "1.8.1"
 kotlinxSerializationPlugin = "2.1.20"
-retrofit = "2.11.0"
+retrofit = "3.0.0"
 leakcanary = "2.14"
 
 [libraries]
