@@ -23,7 +23,7 @@ recyclerviewSelection = "1.1.0"
 coil = "2.7.0"
 okhttp = "4.12.0"
 kotlinxSerialization = "1.8.1"
-kotlinxSerializationPlugin = "2.1.20"
+kotlinxSerializationPlugin = "2.2.10"
 retrofit = "2.11.0"
 leakcanary = "2.14"
 
